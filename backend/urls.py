@@ -7,6 +7,6 @@ urlpatterns = [
     path('auth/', include('djoser.urls')),
     path('auth/', include('djoser.urls.jwt')),
     path('jobs/', include('apps.jobs.urls')),
-    # path('analytics/', include('apps.analytics.urls')),
-    # path('lessons/', include('apps.lessons.urls')),
+    path('analytics/', include('apps.analytics.urls')),
+    path('lessons/', include('apps.lessons.urls')),
 ]
