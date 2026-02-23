@@ -7,12 +7,12 @@ name = "pypi"
 django = "*"
 djangorestframework = "*"
 djangorestframework-simplejwt = "*"
-djoser = "*"
-django-filter = "*"
 psycopg2-binary = "*"
 gunicorn = "*"
 django-cors-headers = "*"
 python-dotenv = "*"
+django-filter = "*"
+djoser = "*"
 
 [dev-packages]
 
