@@ -1,0 +1,72 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pyc
+.Python
+
+# Virtual environments
+.venv/
+venv/
+env/
+.env/
+ENV/
+.virtualenvs/
+
+# Pipenv
+# Keep Pipfile and Pipfile.lock in version control
+# but ignore local pipenv temp files
+.pipenv/
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# Django
+*.log
+local_settings.py
+db.sqlite3
+db.sqlite3-journal
+staticfiles/
+mediafiles/
+media/
+
+# Migrations (optional — some teams commit these, some don't)
+# Uncomment the lines below if you want to ignore migrations
+# */migrations/
+# !*/migrations/__init__.py
+
+# VS Code
+.vscode/
+
+# PyCharm / JetBrains
+.idea/
+
+# macOS
+.DS_Store
+Thumbs.db
+
+# Node / Next.js (for when you add the frontend)
+node_modules/
+.next/
+out/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+
+# Next.js env files
+.env*.local
+
+# Vercel
+.vercel
+
+# Coverage / testing
+htmlcov/
+.coverage
+.coverage.*
+coverage.xml
+*.cover
+.pytest_cache/
